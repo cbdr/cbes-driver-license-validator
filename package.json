@@ -1,7 +1,7 @@
 {
   "name": "@cbes/driver-license-validator",
   "description": "Validate driver license numbers.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": [
     "driver-license",
     "drivers-license",
