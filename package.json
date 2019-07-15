@@ -30,7 +30,7 @@
   "scripts": {
     "lint": "tslint -c ./tslint.json -p ./tsconfig.json",
     "build": "tsc -p ./tsconfig.json",
-    "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
     "release": "standard-version",
     "test": "nyc jasmine JASMINE_CONFIG_PATH=jasmine.json",
     "posttest": "nyc report --reporter=json && codecov -f coverage/*.json",
