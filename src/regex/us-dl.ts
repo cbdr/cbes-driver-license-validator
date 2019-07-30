@@ -20,9 +20,9 @@ export const US_DL: CountryFormats = {
   ],
   AZ: [
     {
-      regex: /^[A-Z]{1}[0-9]{1,8}$/,
-      description: '1 letter followed by 1-8 numbers',
-      translationKey: 'DRIVING_LICENSE_ONE_LETTER_FOLLOWED_BY_ONE_TO_EIGHT_NUMBERS_VALIDATION'
+      regex: /^[A-Z]{1}[0-9]{8}$/,
+      description: '1 letter followed by 8 numbers',
+      translationKey: 'DRIVING_LICENSE_ONE_LETTER_FOLLOWED_BY_EIGHT_NUMBERS_VALIDATION'
     },
     {
       regex: /^[A-Z]{2}[0-9]{2,5}$/,
@@ -508,9 +508,9 @@ export const US_DL: CountryFormats = {
   ],
   VA: [
     {
-      regex: /^[A-Z]{1}[0-9]{9,11}$/,
-      description: '1 letter followed by 9-11 numbers',
-      translationKey: 'DRIVING_LICENSE_ONE_LETTER_FOLLOWED_BY_NINE_TO_ELEVEN_NUMBERS_VALIDATION'
+      regex: /^[A-Z]{1}[0-9]{8,11}$/,
+      description: '1 letter followed by 8-11 numbers',
+      translationKey: 'DRIVING_LICENSE_ONE_LETTER_FOLLOWED_BY_EIGHT_TO_ELEVEN_NUMBERS_VALIDATION'
     },
     {
       regex: /^[0-9]{9}$/,
