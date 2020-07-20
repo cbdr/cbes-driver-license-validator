@@ -228,6 +228,11 @@ export const US_DL: CountryFormats = {
       translationKey: 'DRIVING_LICENSE_ONE_LETTER_FOLLOWED_BY_EIGHT_NUMBERS_VALIDATION'
     },
     {
+      regex: /^[A-Z]{2}[0-9]{7}$/,
+      description: '2 letter followed by 7 numbers',
+      translationKey: 'DRIVING_LICENSE_TWO_LETTER_FOLLOWED_BY_SEVEN_NUMBERS_VALIDATION'
+    },
+    {
       regex: /^[0-9]{9}$/,
       description: '9 numbers',
       translationKey: 'DRIVING_LICENSE_NINE_NUMBERS_VALIDATION'
