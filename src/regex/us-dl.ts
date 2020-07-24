@@ -342,6 +342,11 @@ export const US_DL: CountryFormats = {
       regex: /^[0-9]{2}[A-Z]{3}[0-9]{5}$/,
       description: '2 numbers followed by 3 letters followed by 5 numbers',
       translationKey: 'DRIVING_LICENSE_TWO_NUMBERS_FOLLOWED_BY_THREE_LETTERS_FOLLOWED_BY_FIVE_NUMBERS_VALIDATION'
+    },
+    {
+      regex: /^[A-Z]{3}[0-9]{8}$/,
+      description: '3 letters followed by 8 numbers',
+      translationKey: 'DRIVING_LICENSE_THREE_LETTERS_FOLLOWED_BY_EIGHT_NUMBERS_VALIDATION'
     }
   ],
   NJ: [
